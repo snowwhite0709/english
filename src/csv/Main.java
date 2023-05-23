@@ -4,6 +4,7 @@ import java.io.IOException;
 
 public class Main {
 	public static void main(String[] args) {
+		//aaa
 		//{ファイルパス、キー}
 		String[][] unit = {
 				{"C:\\Users\\3030855\\Desktop\\GUI\\CSV関連\\文型.csv", "文型"},
