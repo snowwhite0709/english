@@ -9,9 +9,6 @@ import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
 
 public class Frame extends JFrame {
-	
-	
-	
 	JPanel contentPane;
 	JPanel panel; //
 	CardLayout layout;  //カードレイアウト
