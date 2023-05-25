@@ -12,19 +12,13 @@ public class CenterPanel extends JPanel {
 
 	
 	public CenterPanel() {
-		//this.btnNewButton = btnNewButton;
-		//cardlayout
 		panel = new JPanel();
 		layout = new CardLayout();
 		panel.setLayout(layout);
 		
 		panel.add(new MainScreenPanel(), "MAIN");
 		panel.add(new SelectPanel(panel, layout), "select");
-		
-		
 	}
-	
-	
 	
 	
 	//ゲッター、セッター

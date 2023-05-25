@@ -7,9 +7,6 @@ public class TopPanel extends JPanel {
 	private JTextField txtEnglishTest;
 
 
-	/**
-	 * Create the panel.
-	 */
 	public TopPanel() {		
 		txtEnglishTest = new JTextField();
 		txtEnglishTest.setText("English Test");
@@ -18,8 +15,6 @@ public class TopPanel extends JPanel {
 		txtEnglishTest.setBorder(null);  //枠線を消す
 		add(txtEnglishTest);
 		txtEnglishTest.setColumns(100);
-		
-
 	}
 
 }

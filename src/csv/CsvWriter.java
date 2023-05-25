@@ -13,15 +13,12 @@ public class CsvWriter {
 
 
 	public static void exportCsv(ArrayList<QA> list, ArrayList<String> selfList, int correctCount, int csvNum, String unit){
-		try {
-			
+		try {			
 			// 出力ファイルの作成
 			//ファイル名をコンソールに出力
 			System.out.println("Userdata."+unit+csvNum+".csv");
 			PrintWriter pw = new PrintWriter(new BufferedWriter
 					(new OutputStreamWriter(new FileOutputStream("Userdata"+csvNum+".csv"),"Shift-JIS")));
-			
-			
 			// ヘッダーの指定
 			pw.print("id");
 			pw.print(",");

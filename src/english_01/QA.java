@@ -1,8 +1,5 @@
 package english_01;
 
-
-
-
 public class QA {
 	private int id;
 	private String sentence;
@@ -16,7 +13,6 @@ public class QA {
 		this.answer = answer;
 		this.translation = translation;
 	}
-
 
 	@Override
 	public String toString() {

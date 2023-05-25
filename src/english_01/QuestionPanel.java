@@ -9,25 +9,16 @@ public class QuestionPanel extends JPanel {
 	JTextField textField;
 	ArrayList<QA> list;
 	int count;
-	/**
-	 * Create the panel.
-	 */
+	
 	public QuestionPanel(ArrayList<QA> list, int count) {
 		this.list = list;
 		this.count = count;
-		
 		
 		setLayout(null);
 		textField = new JTextField("sentence:"+list.get(count).getSentence());
 		add(textField);
 		textField.setBounds(0, 0, 450, 300);
-		
-//		btnNewButton_1.setBounds(230, 130, 91, 21);
 		textField.setColumns(100);
-		
-		
-		
-		
 	}
 	
 	
@@ -51,22 +42,7 @@ public class QuestionPanel extends JPanel {
 		this.count = count;
 	}
 	
-//	public QuestionPanel(int count) {
-//		this.count = count;
-//		
-//		
-//		setLayout(null);
-//		textField = new JTextField("sentence:"+list.get(count));
-//		add(textField);
-//		textField.setBounds(0, 0, 450, 300);
-//		
-////		btnNewButton_1.setBounds(230, 130, 91, 21);
-//		textField.setColumns(100);
-//		
-//		
-//		
-//		
-//	}
+
 	
 	
 }

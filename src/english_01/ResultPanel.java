@@ -9,10 +9,7 @@ import javax.swing.JTextField;
 
 public class ResultPanel extends JPanel {
 	JTextField textField;
-//	int correctCount;
-	/**
-	 * Create the panel.
-	 */
+
 	public ResultPanel(int correctCount) {
 		setLayout(new BorderLayout(0, 0));
 		textField = new JTextField("正解数："+correctCount);
@@ -25,8 +22,6 @@ public class ResultPanel extends JPanel {
 		JLabel lblNewLabel = new JLabel();
 		lblNewLabel.setIcon(new ImageIcon("C:\\Users\\3030855\\Desktop\\mikan.jpg"));
 		add(lblNewLabel, BorderLayout.CENTER);
-//		QuestionButtonPanel.correctCount = 0;
-//		QuestionButtonPanel.count = 0;
 	}
 
 }

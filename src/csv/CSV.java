@@ -19,7 +19,8 @@ public class CSV {
 		CSV.unit = unit;
 		db = new DbOperation();
 	}
-
+	
+	//CSV読み取りメソッド
 	public void csvReader() throws IOException {
 		System.out.println(filepath);
 		try (BufferedReader reader = new BufferedReader(new FileReader(filepath))) {
